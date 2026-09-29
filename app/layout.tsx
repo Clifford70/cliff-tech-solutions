@@ -7,7 +7,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: {
-    default: "Ojeifo Sunday Clifford | Cliff-Tech Solutions",
+    default: "Cliff-Tech Solutions",
     template: "%s | Cliff-Tech Solutions",
   },
 

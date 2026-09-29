@@ -85,13 +85,13 @@ Skill Level: ${level}
 Mode of Training: ${mode}
 Location: ${location}
 
-💳 PAYMENT DETAILS
+  PAYMENT DETAILS
 
 Account Name: ${paymentDetails.accountName}
 Bank Name: ${paymentDetails.bankName}
 Account Number: ${paymentDetails.accountNumber}
 
-💳 PROOF OF PAYMENT:
+  PROOF OF PAYMENT:
 ${paymentProofUrl}
 
 Additional Information:
@@ -266,7 +266,7 @@ Thank you.`;
               <div className="mt-8 rounded-3xl bg-black p-7 text-white shadow-sm">
                 <div className="flex items-center gap-3">
                   <div className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-xl">
-                    💳
+                    
                   </div>
 
                   <div>
@@ -350,27 +350,27 @@ Thank you.`;
                 <div className="mt-5 space-y-3">
                   <div className="flex items-center justify-between rounded-xl bg-white px-4 py-3 text-sm">
                     <span className="text-gray-600">One Month</span>
-                    <span className="font-bold text-black">₦50,000</span>
+                    <span className="font-bold text-black">₦80,000</span>
                   </div>
 
                   <div className="flex items-center justify-between rounded-xl bg-white px-4 py-3 text-sm">
                     <span className="text-gray-600">Three Months</span>
-                    <span className="font-bold text-black">₦120,000</span>
+                    <span className="font-bold text-black">₦240,000</span>
                   </div>
 
                   <div className="flex items-center justify-between rounded-xl bg-white px-4 py-3 text-sm">
                     <span className="text-gray-600">Six Months</span>
-                    <span className="font-bold text-black">₦200,000</span>
+                    <span className="font-bold text-black">₦480,000</span>
                   </div>
 
                   <div className="flex items-center justify-between rounded-xl bg-white px-4 py-3 text-sm">
                     <span className="text-gray-600">One Year</span>
-                    <span className="font-bold text-black">₦350,000</span>
+                    <span className="font-bold text-black">₦830,000</span>
                   </div>
 
                   <div className="flex items-center justify-between rounded-xl bg-white px-4 py-3 text-sm">
                     <span className="text-gray-600">2 Years</span>
-                    <span className="font-bold text-black">₦600,000</span>
+                    <span className="font-bold text-black">₦1760,000</span>
                   </div>
                 </div>
               </div>

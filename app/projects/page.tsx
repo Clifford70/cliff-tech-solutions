@@ -47,11 +47,12 @@ export default function ProjectsPage() {
                   <div className="relative aspect-[16/10] overflow-hidden bg-gray-100">
 
                     <Image
-                      src={project.image}
-                      alt={project.title}
-                      fill
-                      className="object-cover transition duration-500 group-hover:scale-105"
-                    />
+  src={project.image}
+  alt={project.title}
+  fill
+  sizes="(max-width: 768px) 100vw, 50vw"
+  className="object-cover transition duration-500 group-hover:scale-105"
+/>
 
                   </div>
 

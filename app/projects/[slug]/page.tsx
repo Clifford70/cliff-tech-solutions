@@ -84,12 +84,13 @@ export default async function ProjectPage({
           <div className="relative aspect-[16/9] overflow-hidden rounded-[2rem] bg-gray-100">
 
             <Image
-              src={project.image}
-              alt={project.title}
-              fill
-              priority
-              className="object-cover"
-            />
+  src={project.image}
+  alt={project.title}
+  fill
+  priority
+  sizes="(max-width: 1024px) 100vw, 1200px"
+  className="object-cover"
+/>
 
           </div>
 

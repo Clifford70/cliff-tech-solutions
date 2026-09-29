@@ -1,20 +1,38 @@
+import dynamic from "next/dynamic";
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import MessageTicker from "@/components/MessageTicker";
-import Stats from "@/components/Stats";
-import AboutPreview from "@/components/AboutPreview";
-import FeaturedProjects from "@/components/FeaturedProjects";
-import Services from "@/components/Services";
-import Skills from "@/components/Skills";
-import Testimonials from "@/components/Testimonials";
-import ContactCTA from "@/components/ContactCTA";
+
+const Stats = dynamic(() => import("@/components/Stats"));
+
+const AboutPreview = dynamic(
+  () => import("@/components/AboutPreview")
+);
+
+const FeaturedProjects = dynamic(
+  () => import("@/components/FeaturedProjects")
+);
+
+const Services = dynamic(
+  () => import("@/components/Services")
+);
+
+const Skills = dynamic(
+  () => import("@/components/Skills")
+);
+
+const Testimonials = dynamic(
+  () => import("@/components/Testimonials")
+);
+
+const ContactCTA = dynamic(
+  () => import("@/components/ContactCTA")
+);
 
 export default function Home() {
   return (
     <main>
-      
-      
       <Navbar />
 
       <MessageTicker />
@@ -37,4 +55,3 @@ export default function Home() {
     </main>
   );
 }
-

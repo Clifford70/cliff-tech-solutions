@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const services = [
@@ -85,13 +86,16 @@ export default function ServicesPage() {
   return (
     <main>
 
-      <section
-  className="relative overflow-hidden bg-cover bg-center bg-no-repeat pt-32 text-white"
-  style={{
-    backgroundImage: "url('/images/services-bg.jpg')",
-  }}
->
-  {/* Dark overlay */}
+      <section className="relative overflow-hidden pt-32 text-white">
+  <Image
+    src="/images/services-bg.jpg"
+    alt=""
+    fill
+    priority
+    sizes="100vw"
+    className="object-cover object-center"
+  />
+
   <div className="absolute inset-0 bg-black/65" />
 
   <div className="container-custom relative z-10 py-20">
